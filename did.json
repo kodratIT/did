@@ -2,12 +2,12 @@
   "@context": [
     "https://www.w3.org/ns/did/v1"
   ],
-  "id": "did:web:kodratit.github.io",
+  "id": "did:web:kodratit.github.io:did",
   "verificationMethod": [
     {
-      "id": "did:web:kodratit.github.io#key-1",
+      "id": "did:web:kodratit.github.io:did#key-1",
       "type": "JsonWebKey2020",
-      "controller": "did:web:kodratit.github.io",
+      "controller": "did:web:kodratit.github.io:did",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-256",
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:kodratit.github.io#key-1"
+    "did:web:kodratit.github.io:did#key-1"
   ],
   "assertionMethod": [
-    "did:web:kodratit.github.io#key-1"
+    "did:web:kodratit.github.io:did#key-1"
   ]
 }
