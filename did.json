@@ -1,4 +1,3 @@
-```json
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
@@ -26,4 +25,4 @@
     "did:web:kodratit.github.io:did#z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
   ]
 }
-```
+
