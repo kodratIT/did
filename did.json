@@ -1,6 +1,6 @@
 {
   "did": "did:web:kodratit.github.io:did",
-  "verkey": "GVqhdDepwP238jGV4uG6AF51kuQWuVC2ZyPNdAsHfgmo",
+  "verkey": "EUPZCBHZPMxj8phACvkmEN75efDy9tXmuTnQ81RCXVAw",
   "key_type": "ed25519",
   "did_document_url": "https://kodratit.github.io/did/did.json",
   "did_document": {
@@ -11,23 +11,23 @@
     "id": "did:web:kodratit.github.io:did",
     "verificationMethod": [
       {
-        "id": "did:web:kodratit.github.io:did#z6Mkux6kDTuGGvWWFE7BkUDw1Ld1aUgNKNSPFzJJTSqJauZB",
+        "id": "did:web:kodratit.github.io:did#z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK",
         "type": "Multikey",
         "controller": "did:web:kodratit.github.io:did",
-        "publicKeyMultibase": "z6Mkux6kDTuGGvWWFE7BkUDw1Ld1aUgNKNSPFzJJTSqJauZB"
+        "publicKeyMultibase": "z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
       }
     ],
     "authentication": [
-      "did:web:kodratit.github.io:did#z6Mkux6kDTuGGvWWFE7BkUDw1Ld1aUgNKNSPFzJJTSqJauZB"
+      "did:web:kodratit.github.io:did#z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
     ],
     "assertionMethod": [
-      "did:web:kodratit.github.io:did#z6Mkux6kDTuGGvWWFE7BkUDw1Ld1aUgNKNSPFzJJTSqJauZB"
+      "did:web:kodratit.github.io:did#z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
     ],
     "capabilityInvocation": [
-      "did:web:kodratit.github.io:did#z6Mkux6kDTuGGvWWFE7BkUDw1Ld1aUgNKNSPFzJJTSqJauZB"
+      "did:web:kodratit.github.io:did#z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
     ],
     "capabilityDelegation": [
-      "did:web:kodratit.github.io:did#z6Mkux6kDTuGGvWWFE7BkUDw1Ld1aUgNKNSPFzJJTSqJauZB"
+      "did:web:kodratit.github.io:did#z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
     ]
   }
 }
