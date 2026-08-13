@@ -1,24 +1,30 @@
 {
-      "@context": [
-          "https://www.w3.org/ns/did/v1",
-          "https://w3id.org/security/suites/ed25519-2018/v1",
-          "https://w3id.org/security/suites/ed25519-2020/v1"
-      ],
-      "id": "did:web:kodratit.github.io:did",
-      "verificationMethod": [
-          {
-              "id": "did:web:kodratit.github.io:did#0",
-              "type": "Ed25519VerificationKey2018",
-              "controller": "did:web:kodratit.github.io:did",
-              "publicKeyBase58": "EUPZCBHZPMxj8phACvkmEN75efDy9tXmuTnQ81RCXVAw"
-          },
-          {
-              "id": "did:web:kodratit.github.io:did#key0",
-              "type": "Ed25519VerificationKey2020",
-              "controller": "did:web:kodratit.github.io:did",
-              "publicKeyMultibase": "z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
-          }
-      ],
-      "authentication": ["did:web:kodratit.github.io:did#0", "did:web:kodratit.github.io:did#key0"],
-      "assertionMethod": ["did:web:kodratit.github.io:did#0", "did:web:kodratit.github.io:did#key0"]
-  }
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2018/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:kodratit.github.io:did",
+  "verificationMethod": [
+    {
+      "id": "did:web:kodratit.github.io:did#0",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:kodratit.github.io:did",
+      "publicKeyBase58": "EUPZCBHZPMxj8phACvkmEN75efDy9tXmuTnQ81RCXVAw"
+    },
+    {
+      "id": "did:web:kodratit.github.io:did#key0",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:kodratit.github.io:did",
+      "publicKeyMultibase": "z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
+    }
+  ],
+  "authentication": [
+    "did:web:kodratit.github.io:did#0",
+    "did:web:kodratit.github.io:did#key0"
+  ],
+  "assertionMethod": [
+    "did:web:kodratit.github.io:did#0",
+    "did:web:kodratit.github.io:did#key0"
+  ]
+}
