@@ -10,13 +10,13 @@
       "id": "did:web:kodratit.github.io:did#0",
       "type": "Ed25519VerificationKey2018",
       "controller": "did:web:kodratit.github.io:did",
-      "publicKeyBase58": "EUPZCBHZPMxj8phACvkmEN75efDy9tXmuTnQ81RCXVAw"
+      "publicKeyBase58": "4BoSvuCkf6MGiVKjJs1mwbKcuBAsF3XYw2GMgTiTPags"
     },
     {
       "id": "did:web:kodratit.github.io:did#key0",
       "type": "Ed25519VerificationKey2020",
       "controller": "did:web:kodratit.github.io:did",
-      "publicKeyMultibase": "z6MksvebnRXziuTCFKXrtVic5Tf5UEVpZmn8bUhKxHPDShxK"
+      "publicKeyMultibase": "z6Mkhe4VX9TBzdqjpzARzRycngscikSievmud3BHWjgUJoUF"
     }
   ],
   "authentication": [
