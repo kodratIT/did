@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://issuer.example.com/schemas/employee-credential-v1.json",
+  "title": "Employee Credential",
+  "description": "JSON Schema for Employee Verifiable Credential",
+  "type": "object",
+  "properties": {
+    "credentialSubject": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "DID or identifier of the credential holder"
+        },
+        "employeeId": {
+          "type": "string"
+        },
+        "givenName": {
+          "type": "string"
+        },
+        "familyName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "department": {
+          "type": "string"
+        },
+        "position": {
+          "type": "string"
+        },
+        "employmentStatus": {
+          "type": "string",
+          "enum": [
+            "ACTIVE",
+            "INACTIVE",
+            "CONTRACT",
+            "INTERN"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "employeeId",
+        "givenName",
+        "familyName"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "credentialSubject"
+  ],
+  "additionalProperties": false
+}
